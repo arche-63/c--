@@ -2,7 +2,7 @@
 
 int main()
     {
-    txCreateWindow (600, 600);
+    txCreateWindow (1914, 936);
 
     txLine (176, 451, 176, 291);
     txLine (177, 351, 213, 375);
@@ -11,7 +11,7 @@ int main()
     txLine (178, 452, 216, 505);
     txCircle (178, 252, 40);
 
-
+   
     txSelectFont ("Symbol", 300);
     txTextOut (250, 150, "\xA9");
 
@@ -24,7 +24,8 @@ int main()
     txCircle (479, 250, 42);
 
 
-    txSetColor (TX_YELLOW);
+
+     txSetColor (TX_YELLOW);
     txSetFillColor (TX_YELLOW);
     txCircle (353, 102, 60);
     }
