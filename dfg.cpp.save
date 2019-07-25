@@ -31,6 +31,7 @@ int main()
     txSetFillColor (TX_YELLOW);
     txCircle (353, 102, 60);
 
+
     txSetColor (TX_PINK, 5);
     txSetFillColor (TX_PINK);
     txRectangle (689, 309, 817, 371);
@@ -49,6 +50,7 @@ int main()
     txCircle (657, 269, 10);
     txCircle (678, 269, 10);
 
+
     txSetColor (TX_BROWN);
     txSetFillColor (TX_BROWN);
     txRectangle (1111, 222, 1144, 399);
@@ -63,13 +65,39 @@ int main()
     txCircle (1171, 153, 30);
     txCircle (1143, 114, 30);
 
+
     txSetColor (TX_PINK, 3);
     txSetFillColor (TX_PINK);
     txRectangle (1563, 359, 1413, 211);
     txLine (1413, 211, 1481, 38);
     txLine (1563, 208, 1481, 38);
     txSetFillColor (TX_BLACK);
-    txCircle 
+    txCircle (1491, 288, 30);
+    txLine (1491, 258, 1491, 316);
+    txLine (1465, 288, 1523, 288);
+
+    txSetColor (TX_LIGHTGREEN);
+    txSetFillColor (TX_LIGHTGREEN);
+    txCircle (1384, 583, 60);
+    txSetColor (TX_BLACK, 3);
+    txLine (1402, 560, 1432, 560);
+    txLine (1347, 560, 1380, 560);
+    txLine (1361, 595, 1389, 621);
+    txLine (1389, 621, 1415, 595);
+    txSetColor (TX_LIGHTGREEN);
+    txSetFillColor (TX_LIGHTGREEN);
+    txCircle (1290, 555, 40);
+    txCircle (1478, 555, 40);
+
+    txSetColor (TX_RED);
+    txSetFillColor (TX_RED);
+    txCircle (819, 539, 45);
+    txSetColor (TX_GREEN);
+    txLine (819, 577, 820, 7);
+    txLine (820, 677, 877, 625);
+    txLine (820, 654, 777, 599);
+    txLine (820, 626, 872, 577);
+
 
 
 
